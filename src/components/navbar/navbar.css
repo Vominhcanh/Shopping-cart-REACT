@@ -1,0 +1,76 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100000;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  justify-content: space-around;
+  padding: 5px 0;
+}
+.navbar.is-sticky {
+  position: fixed;
+  background: #fff;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+  animation: slideDown 0.35s ease-out;
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.nav_logo {
+  text-align: center;
+}
+.nav_logo p {
+  margin: 0;
+  font-weight: inherit;
+  background: -webkit-linear-gradient(#19edf0, #1455e0, #991bd8, #e41174);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav_logo .link_home {
+  text-decoration: none;
+}
+.links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #212245;
+  margin-left: 30px;
+  transition: 0.3s;
+}
+.nav_links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #000;
+}
+.nav_links .box_cart {
+  display: flex;
+  position: relative;
+  padding: 20px;
+}
+.nav_links .box_cart p {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 11px;
+  background: linear-gradient(#1988f0, #1455e0);
+  padding: 3px 8px;
+  border-radius: 50%;
+  color: #fff;
+  overflow: hidden;
+}

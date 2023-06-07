@@ -1,0 +1,75 @@
+.cart_nav {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.countHandler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+  border: none;
+  padding: 5px 0;
+}
+.countHandler p {
+  cursor: pointer;
+  padding: 1.5px 7px;
+}
+table {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+table th {
+  background: linear-gradient(#1986ec, #1455e0);
+  color: white;
+  font-weight: 500;
+}
+table tbody tr td p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(#19b3f0, #1455e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+table button {
+  font-size: 18px;
+  padding: 8px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.button_two {
+  background: #e91e63;
+  color: white;
+}
