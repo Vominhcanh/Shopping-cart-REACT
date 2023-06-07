@@ -1,6 +1,6 @@
 # Shopping-cart-Reactjs 
 # Screenshots
-![image](https://github.com/Vominhcanh/Shopping-cart-REACT/assets/91335820/a1ece5fe-e116-4e7c-9e3d-1c5f4aee1a3a)
+![image](https://github.com/Vominhcanh/Shopping-cart-REACT/assets/91335820/e24771d5-9ed3-44b2-bf78-cab39fd6aaf9)
 ![image](https://github.com/Vominhcanh/Shopping-cart-REACT/assets/91335820/c1a55ad8-7169-4a18-ac05-4755c9871a60)
 
 #Tech Stack
